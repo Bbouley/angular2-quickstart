@@ -1,9 +1,9 @@
 (function(app) {
 
-    app.AppComponent =
+    app.AppComponent2 =
         ng.core.Component({
-            selector : 'my-app',
-            template : '<h1>My SECOND Angular 2 App</h1>'
+            selector : 'second-component',
+            template : '<h2>This is the second component</h2>'
         })
         .Class ({
             constructor : function() {}
